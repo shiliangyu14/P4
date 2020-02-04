@@ -62,9 +62,9 @@ if __name__ == '__main__':
                  'opponent_bots/production_bot.py']
 
     # Original map generation
-    # maps = [71, 13, 24, 56, 7]
+    maps = [71, 13, 24, 56, 7]
     # Random Map Generation
-    maps = [randint(1,100), randint(1,100), randint(1,100), randint(1,100), randint(1,100)]
+    # maps = [randint(1,100), randint(1,100), randint(1,100), randint(1,100), randint(1,100)]
 
     my_bot = 'behavior_tree_bot/bt_bot.py'
     show = len(sys.argv) < 2 or sys.argv[1] == "show"
