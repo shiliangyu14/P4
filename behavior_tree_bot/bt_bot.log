@@ -17,7 +17,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 3 13.0
+DEBUG:root:Order:1 4 82.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -32,7 +32,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 7 67.0
+DEBUG:root:Order:1 18 5.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -47,7 +47,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 20 8.0
+DEBUG:root:Order:1 12 13.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -62,7 +62,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 6 5.0
+DEBUG:root:Order:1 11 13.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -77,355 +77,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 5 5.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 4 13.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 19 8.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 9 39.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:20 10 39.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:3 22 47.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:7 13 48.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 14 48.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:6 21 47.0
+DEBUG:root:Order:1 17 5.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -512,11 +164,10 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Order:1 6 23.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
@@ -584,7 +235,202 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 0 62.0
+DEBUG:root:Order:1 5 23.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:4 9 31.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:1 0 38.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:12 11 43.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -691,7 +537,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:9 16 67.0
+DEBUG:root:Order:4 18 14.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -726,58 +572,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:7 13 59.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:19 8 67.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:3 15 67.0
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
-DEBUG:root:Result: Sequence: Spread Strategy -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:20 11 77.0
+DEBUG:root:Order:1 19 56.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -812,43 +607,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:1 12 77.0
+DEBUG:root:Order:12 0 50.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -883,43 +642,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Success
-DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:4 17 85.0
+DEBUG:root:Order:4 17 34.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -936,7 +659,7 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:6 18 85.0
+DEBUG:root:Order:1 6 17.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -1025,6 +748,58 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:0 12 22.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:11 16 60.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
 DEBUG:root:Result: Sequence: Spread Strategy -> Failure
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
@@ -1061,7 +836,76 @@ DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
 DEBUG:root:Result: Check: if_neutral_planet_available -> Success
 DEBUG:root:Executing:Action: spread_to_closest_all_planet
-DEBUG:root:Order:0 13 77.0
+DEBUG:root:Order:1 21 59.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:0 9 16.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:11 5 13.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:4 20 56.0
 DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
 DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -1148,69 +992,11 @@ DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:10 5 90.0
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
-DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:0 17 16.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
@@ -1223,7 +1009,9 @@ DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
 DEBUG:root:Result: Sequence: Spread Strategy -> Failure
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
@@ -1239,21 +1027,11 @@ DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:19 17 103.0
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
-DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:12 15 60.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
@@ -1266,149 +1044,11 @@ DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:22 18 29.0
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
-DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:11 13 60.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
@@ -1421,53 +1061,11 @@ DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:1 21 189.0
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
-DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:1 22 59.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
@@ -1480,7 +1078,483 @@ DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
 DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:0 14 60.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:18 19 9.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:17 9 9.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:15 6 9.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:16 5 9.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:21 3 82.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:0 17 25.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:11 8 84.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:1 7 84.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:12 2 82.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:4 10 85.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Order:20 9 6.0
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Success
+DEBUG:root:Result: Sequence: Spread Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_closest_all_planet
+DEBUG:root:Result: Action: spread_to_closest_all_planet -> Failure
 DEBUG:root:Result: Sequence: Spread Strategy -> Failure
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
@@ -1508,311 +1582,7 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:19 17 145.0
+DEBUG:root:Order:8 5 7.0
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
 DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -1887,6 +1657,33 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:20 9 8.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1919,7 +1716,66 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:4 2 155.0
+DEBUG:root:Order:10 19 8.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:7 6 14.0
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
 DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -1994,7 +1850,7 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:8 17 138.0
+DEBUG:root:Order:0 3 44.0
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
 DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -2085,6 +1941,108 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:20 9 9.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:2 8 62.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
 DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -2133,7 +2091,398 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Order:4 2 55.0
+DEBUG:root:Order:19 10 11.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:7 6 8.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:20 9 9.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:8 5 20.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:18 19 36.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_closest_enemy_planet
+DEBUG:root:Order:19 10 6.0
 DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
 DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -2320,111 +2669,10 @@ DEBUG:root:Executing:Sequence: Offensive Strategy
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Offensive Strategy
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
-DEBUG:root:Executing:Sequence: Spread Strategy
-DEBUG:root:Executing:Check: if_neutral_planet_available
-DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
-DEBUG:root:Result: Sequence: Spread Strategy -> Failure
-DEBUG:root:Executing:Action: attack_closest_enemy_planet
-DEBUG:root:Result: Action: attack_closest_enemy_planet -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Order:8 5 7.0
+DEBUG:root:Result: Action: attack_closest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies

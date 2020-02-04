@@ -26,6 +26,7 @@ def attack_closest_enemy_planet(state):
     min_source_planet=None
     min_dst_planet=None    
     required_ships_final =0
+    max_growth_rate=0
     if len(state.my_fleets()) >= 1:
         return False
     for my_planet in state.my_planets():
@@ -33,11 +34,12 @@ def attack_closest_enemy_planet(state):
             required_ships = target_planet.num_ships + \
                                  state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
             if(my_planet.num_ships>=required_ships):
-                if (state.distance(my_planet.ID, target_planet.ID)<min_distance) or (min_distance==0):
+                if (state.distance(my_planet.ID, target_planet.ID)<min_distance) or (min_distance==0) or ((state.distance(my_planet.ID, target_planet.ID)==min_distance) and max_growth_rate<(target_planet.growth_rate*2)):
                     min_distance=state.distance(my_planet.ID, target_planet.ID)
                     min_source_planet=my_planet
                     min_dst_planet=target_planet
                     required_ships_final =required_ships
+                    max_growth_rate=(target_planet.growth_rate*2)
     if not min_source_planet or not min_dst_planet:
         return False
     else:
@@ -92,25 +94,28 @@ def spread_to_closest_all_planet(state):
     min_distance=0
     min_source_planet=None
     min_dst_planet=None    
+    max_growth_rate=0
     required_ships_final =0
     for my_planet in state.my_planets():
         for neutral_planet in neutral_planets:
             required_ships = neutral_planet.num_ships+1
             if(my_planet.num_ships>neutral_planet.num_ships):
-                if (state.distance(my_planet.ID, neutral_planet.ID)<min_distance) or (min_distance==0):
+                if (state.distance(my_planet.ID, neutral_planet.ID)<min_distance) or (min_distance==0) or ((state.distance(my_planet.ID, neutral_planet.ID)==min_distance) and max_growth_rate<neutral_planet.growth_rate):
                     min_distance=state.distance(my_planet.ID, neutral_planet.ID)
                     min_source_planet=my_planet
                     min_dst_planet=neutral_planet
                     required_ships_final =required_ships
+                    max_growth_rate=neutral_planet.growth_rate
         for target_planet in enemy_planets:
             required_ships = target_planet.num_ships + \
                                  state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
             if(my_planet.num_ships>=required_ships):
-                if (state.distance(my_planet.ID, target_planet.ID)<min_distance) or (min_distance==0):
+                if (state.distance(my_planet.ID, target_planet.ID)<min_distance) or (min_distance==0) or ((state.distance(my_planet.ID, target_planet.ID)==min_distance) and max_growth_rate<(target_planet.growth_rate*2)):
                     min_distance=state.distance(my_planet.ID, target_planet.ID)
                     min_source_planet=my_planet
                     min_dst_planet=target_planet
                     required_ships_final =required_ships
+                    max_growth_rate=(target_planet.growth_rate*2)
 
 
 
