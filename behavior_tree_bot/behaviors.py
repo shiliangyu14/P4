@@ -1,6 +1,7 @@
 import sys
 sys.path.insert(0, '../')
 from planet_wars import issue_order
+import logging, traceback, sys, os, inspect
 
 
 def attack_weakest_enemy_planet(state):
@@ -27,8 +28,9 @@ def attack_closest_enemy_planet(state):
     min_dst_planet=None    
     required_ships_final =0
     max_growth_rate=0
-    if len(state.my_fleets()) >= 1:
-        return False
+    # if len(state.my_fleets()) >= 1:
+    #     logging.info('Fleet already sents\n-----------------------------------------------------------')
+    #     return False
     for my_planet in state.my_planets():
         for target_planet in state.enemy_planets():
             required_ships = target_planet.num_ships + \
@@ -41,8 +43,10 @@ def attack_closest_enemy_planet(state):
                     required_ships_final =required_ships
                     max_growth_rate=(target_planet.growth_rate*2)
     if not min_source_planet or not min_dst_planet:
+        logging.info('No new  target\n-----------------------------------------------------------')
         return False
     else:
+        logging.info('ATTACK\n-----------------------------------------------------------')
         return issue_order(state,min_source_planet.ID, min_dst_planet.ID, required_ships_final)
 
 def attack_highest_enemy_growth_rate(state):
@@ -68,33 +72,58 @@ def attack_highest_enemy_growth_rate(state):
         return issue_order(state, strongest_planet.ID, fastest_planet.ID, strongest_planet.num_ships / 2)
 
 def attack_weighted(state):
-    growth_rate_weight = 300
-    num_ships_weight = 20
+    growth_rate_weight = 10
+    num_ships_weight = 2
+    my_planet_strength_weight = 1
     distance_weight = 1
-    if len(state.my_fleets()) >= 1:
-        return False
-    strongest_planet = max(state.my_planets(), key=lambda t: t.num_ships, default=None)
+    ship_ratio = 7 / 8
+    growth_adjustment = 2
+    enemy_planets = [planet for planet in state.enemy_planets()
+                     if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
+    enemy_planets.sort(key=lambda p: p.num_ships, reverse=True)
+    my_planets = [planet for planet in state.my_planets()
+                     if not any(fleet.destination_planet == planet.ID for fleet in state.enemy_fleets())]
+    my_planets.sort(key=lambda p: p.num_ships)
+
+    # if len(state.my_fleets()) >= 1:
+    #     return False
     most_weight = None
     most_weight_planet = None
-    for planet in state.enemy_planets():
-        estimated_requirement = planet.num_ships + \
-                         state.distance(strongest_planet.ID, planet.ID) * planet.growth_rate + 1
-        weight = (growth_rate_weight * planet.growth_rate) + (num_ships_weight * planet.num_ships) + \
-                 (distance_weight * (state.distance(strongest_planet.ID, planet.ID)) * -1)
-        if most_weight is None:
-            most_weight_planet = planet
-            most_weight = weight
-            required_ships = estimated_requirement
-        if (strongest_planet.num_ships / 2 > estimated_requirement) and (weight > most_weight):
-            most_weight_planet = planet
-            most_weight = weight
-            required_ships = estimated_requirement
-    if not strongest_planet or not most_weight_planet:
+    spreading_planet = None
+    should_attack = False
+    for my_planet in my_planets:
+        for target_planet in enemy_planets:
+            estimated_requirement = target_planet.num_ships + \
+                             state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate * growth_adjustment + 1
+            # estimated_requirement = 10
+            weight = (growth_rate_weight * target_planet.growth_rate) + (num_ships_weight * target_planet.num_ships * -1) + \
+                     (distance_weight * (state.distance(my_planet.ID, target_planet.ID)) * -1) + \
+                     (my_planet_strength_weight * my_planet.num_ships)
+            if most_weight is None:
+                most_weight_planet = target_planet
+                spreading_planet = my_planet
+                most_weight = weight
+                required_ships = estimated_requirement + 1
+                if my_planet.num_ships * ship_ratio > estimated_requirement:
+                    should_attack = True
+            if (my_planet.num_ships * ship_ratio > estimated_requirement) and (weight > most_weight):
+                logging.info('Found new target\n-----------------------------------------------------------')
+                should_attack = True
+                most_weight_planet = target_planet
+                spreading_planet = my_planet
+                most_weight = weight
+                required_ships = estimated_requirement + 1
+                # issue_order(state, spreading_planet.ID, most_weight_planet.ID, required_ships)
+    if not spreading_planet or not most_weight_planet or not should_attack:
+        logging.info('No attack --------------------------------------------------------------------')
         # No legal source or destination
         return False
     else:
-        # (4) Send half the ships from my strongest planet to the weakest enemy planet.
-        return issue_order(state, strongest_planet.ID, most_weight_planet.ID, required_ships / 2)
+        logging.info('--------------------------------------------------------------- ACTUAL ATTACK')
+        logging.info("Stats (My num ships | Enemy num ships | Attack size | Distance | Enemy growth:\n" + \
+                     ' '.join([str(spreading_planet.num_ships), str(most_weight_planet.num_ships), str(required_ships), \
+                               str(state.distance(my_planet.ID, most_weight_planet.ID)), str(most_weight_planet.growth_rate)]))
+        return issue_order(state, spreading_planet.ID, most_weight_planet.ID, required_ships)
 
 
 def spread_to_weakest_neutral_planet(state):
@@ -158,16 +187,16 @@ def spread_to_closest_all_planet(state):
                     min_dst_planet=neutral_planet
                     required_ships_final =required_ships
                     max_growth_rate=neutral_planet.growth_rate
-        for target_planet in enemy_planets:
-            required_ships = target_planet.num_ships + \
-                                 state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
-            if(my_planet.num_ships>=required_ships):
-                if (state.distance(my_planet.ID, target_planet.ID)<min_distance) or (min_distance==0) or ((state.distance(my_planet.ID, target_planet.ID)==min_distance) and max_growth_rate<(target_planet.growth_rate*2)):
-                    min_distance=state.distance(my_planet.ID, target_planet.ID)
-                    min_source_planet=my_planet
-                    min_dst_planet=target_planet
-                    required_ships_final =required_ships
-                    max_growth_rate=(target_planet.growth_rate*2)
+        # for target_planet in enemy_planets:
+        #     required_ships = target_planet.num_ships + \
+        #                          state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
+        #     if(my_planet.num_ships>=required_ships):
+        #         if (state.distance(my_planet.ID, target_planet.ID)<min_distance) or (min_distance==0) or ((state.distance(my_planet.ID, target_planet.ID)==min_distance) and max_growth_rate<(target_planet.growth_rate*2)):
+        #             min_distance=state.distance(my_planet.ID, target_planet.ID)
+        #             min_source_planet=my_planet
+        #             min_dst_planet=target_planet
+        #             required_ships_final =required_ships
+        #             max_growth_rate=(target_planet.growth_rate*2)
 
 
 
