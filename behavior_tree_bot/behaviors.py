@@ -13,13 +13,10 @@ def attack_highest_priority_planet(state):
     min_source_planet=None
     min_dst_planet=None    
     max_growth_rate=0
-<<<<<<< HEAD
     # if len(state.my_fleets()) >= 1:
     #     logging.info('Fleet already sents\n-----------------------------------------------------------')
     #     return False
-=======
     required_ships_final =0
->>>>>>> ceda71226e18b4b4b9f0496071e87bbe3657e503
     for my_planet in state.my_planets():
         for target_planet in enemy_planets:
             required_ships = target_planet.num_ships + \
@@ -30,7 +27,6 @@ def attack_highest_priority_planet(state):
                     min_source_planet=my_planet
                     min_dst_planet=target_planet
                     required_ships_final =required_ships
-<<<<<<< HEAD
                     max_growth_rate=(target_planet.growth_rate*2)
     if not min_source_planet or not min_dst_planet:
         logging.info('No new  target\n-----------------------------------------------------------')
@@ -148,10 +144,7 @@ def spread_to_closest_neutral_planet(state):
                     min_distance=state.distance(my_planet.ID, neutral_planet.ID)
                     min_source_planet=my_planet
                     min_dst_planet=neutral_planet
-
-=======
                     highest_priority=priority
->>>>>>> ceda71226e18b4b4b9f0496071e87bbe3657e503
 
     if not min_source_planet or not min_dst_planet:
         return False
@@ -181,7 +174,6 @@ def spread_to_highest_priority_all_planet(state):
                     min_source_planet=my_planet
                     min_dst_planet=neutral_planet
                     required_ships_final =required_ships
-<<<<<<< HEAD
                     max_growth_rate=neutral_planet.growth_rate
         # for target_planet in enemy_planets:
         #     required_ships = target_planet.num_ships + \
@@ -194,8 +186,6 @@ def spread_to_highest_priority_all_planet(state):
         #             required_ships_final =required_ships
         #             max_growth_rate=(target_planet.growth_rate*2)
 
-
-=======
                     highest_priority=priority
         for target_planet in enemy_planets:
             required_ships = target_planet.num_ships + \
@@ -207,7 +197,6 @@ def spread_to_highest_priority_all_planet(state):
                     min_dst_planet=target_planet
                     required_ships_final =required_ships
                     highest_priority=priority
->>>>>>> ceda71226e18b4b4b9f0496071e87bbe3657e503
 
     if not min_source_planet or not min_dst_planet:
         return False
